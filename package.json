@@ -1,0 +1,19 @@
+{
+  "name": "vite-project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "browser-sync": "^2.29.3",
+    "imagemin-pngquant": "^9.0.2",
+    "postcss": "^8.4.24",
+    "sass": "^1.62.1",
+    "vite": "^4.3.9"
+  }
+}

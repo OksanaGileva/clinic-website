@@ -1,0 +1,107 @@
+.head {
+  background-color: #F8FBFA;
+  min-height: 532px;
+}
+
+.head-main {
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+.head__img {
+  background-image: url("../images/clinic.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 288px;
+}
+
+.head__info {
+  padding: 34px 18px;
+}
+
+.title--info {
+  margin-bottom: 9px;
+}
+
+.head__info-desc {
+  line-height: 150%;
+}
+
+
+@media (min-width: 680px) {
+  .head__img {
+    min-height: 350px;
+  }
+  .head__info {
+    padding: 40px;
+  }
+}
+
+
+@media (min-width: 820px) {
+  .head__img {
+    min-height: 420px;
+  }
+}
+
+
+
+@media (min-width: 940px) {
+  .head-main {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding-bottom: 3px;
+    padding-left: 40px;
+  }
+
+  .head__img {
+    width: 950px;
+    min-height: 532px;
+  }
+
+  .head__info {
+    padding: 90px 0;
+    margin: 54px 0 72px 0;
+    max-width: 320px;
+  }
+}
+
+
+
+@media (min-width: 1060px) {
+  .head-main {
+    padding-left: 90px;
+  }
+
+  .head__info {
+    max-width: 367px;
+    margin-right: 40px;
+  }
+}
+
+
+@media (min-width: 1300px) {
+  .head__info {
+    margin-right: 120px;
+  }
+}
+
+
+@media (min-width: 1550px) {
+  .head-main {
+    padding-left: 240px;
+  }
+
+  .head__info {
+    margin-right: 164px;
+  }
+}
+
+
+@media (min-width: 1800px) {
+  .head-main {
+    padding-left: 390px;
+  }
+}

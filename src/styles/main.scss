@@ -1,0 +1,187 @@
+.main__img {
+  background-image: url("../images/check-up.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-width: 340px;
+  min-height: 169px;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.main__inner {
+  background: #E2F0EF;
+  padding-bottom: 42px;
+  border-radius: 0px 0px 5px 5px;
+  margin-top: 49px;
+}
+
+.service__info {
+  padding: 22px;
+  margin-bottom: 5px;
+}
+
+.service__desc {
+  font-weight: 700;
+  line-height: 18px;
+  margin-top: 5px;
+}
+
+.service__list {
+  margin: 12px 0;
+}
+
+.service__list-item {
+  margin-bottom: 15px;
+  display: flex;
+  column-gap: 9px;
+}
+
+.service__list-item span {
+  width: 7px;
+  height: 7px;
+  display: block;
+  border-radius: 50px;
+  background: #1FA181;
+  margin-top: 6px;
+}
+
+.service__price {
+  margin-top: 2px;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.service__price-old {
+  color: #868686;
+  font-size: 14px;
+  text-decoration-line: line-through;
+  margin-left: 10px;
+}
+
+.main__btns {
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+  text-align: center;
+}
+
+.btn--appoint, .btn--details {
+  min-width: 137px;
+  padding: 11px 24px;
+}
+
+.btn--appoint:hover {
+  background: #00D29F;
+}
+
+.btn-link--appoint:hover, .btn-link--details:hover {
+  color: white;
+}
+
+.btn--details {
+  background: none;
+  border: 1px solid #0DBC91;
+  &:hover {
+    background: #0DBC91;
+    border: 1px solid #0DBC91;
+  }
+}
+
+.btn-link--details {
+  color: #0DBC91;
+}
+
+.switch {
+  display: flex;
+  padding: 20px 0;
+  margin: 7px 0 21px 0;
+  justify-content: center;
+  align-items: center;
+  column-gap: 36px;
+}
+
+.switch__btn {
+  display: flex;
+}
+
+.switch__btn--next {
+  transform: scale(-1, -1);
+  order: 1;
+}
+
+.switch__btn-img {
+  align-self: center;
+}
+
+.switch__page {
+  font-size: 18px;
+}
+
+.switch__page-separator, .switch__page-last {
+  color: #C0C0C0;
+}
+
+
+
+@media (min-width: 440px) {
+  .main__img {
+    min-height: 260px;
+  }
+}
+
+
+@media (min-width: 680px) {
+  .main__img {
+    min-height: 350px;
+  }
+}
+
+
+@media (min-width: 940px) {
+  .main__inner {
+    background-image: url("../images/check-up-with-backround.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 101px 0 39px 0;
+    padding-bottom: 0;
+    border-radius: 5px 5px 5px 5px;
+  }
+
+  .main__img {
+    display: none;
+  }
+
+  .service {
+    padding: 53px 63px;
+    margin-right: -50px;
+  }
+
+  .service__info {
+    padding: 0px;
+    margin-bottom: 26px;
+  }
+
+  .service__price {
+    margin-top: 33px;
+  }
+
+  .main__btns {
+    justify-content: flex-start;
+  }
+
+  .btn--appoint, .btn--details {
+    min-width: 196px;
+  }
+
+  .switch {
+    margin-bottom: 40px;
+  }
+}
+
+
+@media (min-width: 1200px) {
+  .switch {
+    margin-bottom: 98px;
+  }
+}
