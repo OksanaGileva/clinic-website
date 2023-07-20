@@ -3,6 +3,7 @@
 }
 
 .open-position {
+  display: flex!important;
   top: 335px;
   left: 18px;
 }
@@ -60,7 +61,7 @@
   z-index: 100;
   background: #F6F6F6;
   border: 1px solid rgba(69, 146, 127, 0.9);
-  &:hover {
+  &:hover, &:active {
     background: #0DBC91;
     border: 1px solid #0DBC91;
   }
@@ -69,7 +70,7 @@
 .btn-link--reception {
   color: #1FA181;
   font-weight: 700;
-  &:hover {
+  &:hover, &:active {
     color: white;
   }
 }
@@ -207,7 +208,7 @@
     align-self: center;
     margin-bottom: 2px;
     background: #0DBC91;
-    &:hover {
+    &:hover, &:active {
       background: #00D29F;
     }
   }
